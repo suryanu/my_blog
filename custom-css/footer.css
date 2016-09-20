@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.footer{
+	width: 100%;
+	background-color: rgba(2,2,2,0.60);
+	color: white;
+}
+.copyrights > h4{
+	font-family: 'Poiret One', cursive;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.social > a > i{
+	padding-top: 20px;
+	float: right;
+	color: white;
+}
+.social > a > i:hover,
+.social > a > i:focus{
+	color: rgba(0, 174, 193, 1);
+}

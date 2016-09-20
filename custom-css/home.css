@@ -1,0 +1,56 @@
+.home {
+	background: url(../images/Background-1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.nopadding {
+	padding-left: 0 !important;
+	margin-left: 0 !important;
+}
+
+#background-image {
+	padding-top: 50px;
+	padding-left: 0 !important;
+	margin-left: 0 !important;
+}
+@media screen and (min-width:1199px) {
+	.aboutme_lines {
+		font-size: 27.7px;
+		line-height: 1.8;
+	}
+	.hd1 {
+		font-size: 70px;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1198px) {
+	.aboutme_lines {
+		font-size: 29.8px;
+	}
+	.hd1 {
+		font-size: 70px;
+	}
+}
+
+@media screen and (min-width:767px) and (max-width:990px) {
+	.aboutme_lines {
+		font-size: 22.7px;
+	}
+	.hd1 {
+		font-size: 50px;
+	}
+}
+
+.text_home {
+	padding-top: 180px;
+	color: white;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+@media screen and (max-width:767px){
+	.text_home{
+		padding-top: 0;
+	}
+} 

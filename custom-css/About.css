@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.about-background {
+	background: linear-gradient(360deg, rgba(246, 74, 65, 0.9), rgba(246, 74, 73, 0.9));
+}
+
+.aboutme_lines {
+	color: white;
+	text-align: center;
+	font-family: 'Lancelot', cursive;
+	font-size: 30px;
+	right: 10px;
+	padding-top: 0;
+	line-height: 1.9;
+	padding-bottom: 25px;
+}
+
+.progress,
+.progress-bar{
+	height: 5px;
+}
+
+.skills-logos{
+	padding: 100px;
+}
+
+.courses{
+	font-family: 'Lobster Two', cursive;
+}
+
+@media screen and (max-width:500px){
+	.about-background{
+		padding-bottom: 10px;
+	}
+	.skills{
+	background: rgba(255,255,255,0.50);
+	font-size: 20px;
+}
+}
