@@ -2,6 +2,7 @@
 /* CSS Document */
 .about-background {
 	background: linear-gradient(360deg, rgba(246, 74, 65, 0.9), rgba(246, 74, 73, 0.9));
+	padding-bottom: 100px;
 }
 
 .aboutme_lines {
